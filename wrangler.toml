@@ -1,4 +1,4 @@
-name = "warden-worker"
+name = "linshi"
 main = "src/entry.js"
 compatibility_date = "2025-09-19"
 keep_vars = true
@@ -103,6 +103,7 @@ migrations_dir = "migrations"
 # If R2 is not configured, KV will be used for attachments.
 [[kv_namespaces]]
 binding = "ATTACHMENTS_KV"
+id = "0ba74f9cf06548fc9d3e1755177131b5"
 
 [env.dev]
 name = "warden-worker-dev"
@@ -141,6 +142,7 @@ migrations_dir = "migrations"
 # KV namespace for file attachments in dev environment (optional, no credit card required)
 [[env.dev.kv_namespaces]]
 binding = "ATTACHMENTS_KV"
+id = "00b0a23ab8a640529c5721e0e0276c29"
 
 # logs
 [env.dev.observability]
